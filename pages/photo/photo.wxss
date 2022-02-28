@@ -1,0 +1,41 @@
+/* pages/photo/photo.wxss */
+
+.images{
+    display: flex;
+}
+
+.boxleft, .boxright{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 0;
+}
+
+.boxleft{
+    padding-right:2px;
+}
+
+.boxright{
+    padding-left: 2px;
+}
+
+.boxleft .pic .image, .boxright .pic .image{
+    width: 100%;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    bottom: 2em;
+    height: 138rpx;
+    width: 100%;
+    z-index: 100;
+    left: 0;
+}
+
+.options .add-item{
+    display: block;
+    margin: 0 auto;
+    width: 143rpx;
+    height: 164rpx;
+}
